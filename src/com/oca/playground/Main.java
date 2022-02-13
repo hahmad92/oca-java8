@@ -1,4 +1,4 @@
-package oca.playground;
+package com.oca.playground;
 
 public class Main {
     public static void main(String [] args){
