@@ -15,7 +15,7 @@ public class VarargsDemo {
 		walk(1,2,3,4);
 		walk(1,new int [] {12,3,4});
 		
-		walkString("Hammad","awan",null,null);
+		walkString("Hammad Ahmad","awan",null,null);
 		try {
 			walkString("Hammad",null);
 		}catch (Exception exception){
