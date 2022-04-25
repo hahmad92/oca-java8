@@ -4,7 +4,9 @@ public class Chapter2Test {
 
 	public static int hourOfDay = 10;
 	public static void main(String[] args) {
-		
+		int x = 5;
+		int y = x++ + --x;
+		System.out.println("value of x is: " + y);
 		if (hourOfDay < 15) {
 			System.out.println("Good Afternoon");
 		} else if (hourOfDay < 11) {
@@ -19,7 +21,7 @@ public class Chapter2Test {
 		short s = 10;
 		byte b = 10;
 		
-		s = s + b;
+		//s = s + b;
 		
 	}
 }

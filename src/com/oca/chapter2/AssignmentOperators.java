@@ -14,7 +14,7 @@ public class AssignmentOperators {
 		 
 		 boolean b = false;
 		 boolean c = false;
-		 System.out.println((b)(c));
+		 //System.out.println((b)(c));
 	}
 
 }

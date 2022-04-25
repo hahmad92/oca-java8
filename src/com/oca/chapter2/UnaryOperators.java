@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class UnaryOperators {
 
 	public static void main(String[] args) {
+		
+		
 		boolean x = false;
 		System.out.println(x); // false
 		x = !x;
@@ -53,7 +55,7 @@ public class UnaryOperators {
 		data[++x] = 10 + x++ * ++x;
 		
 		System.out.println(Arrays.toString(data));
-		++x =10;
+		//++x =10;
 	}
 
 }

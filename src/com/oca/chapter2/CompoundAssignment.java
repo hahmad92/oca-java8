@@ -11,6 +11,12 @@ public class CompoundAssignment {
 		int c;
 		// c += 9; //compile time error
 
+
+		long x3 = 10;
+		int y3 = 5;
+		//y3 = y3 * x3; // DOES NOT COMPILE
+		y3 *= x3;
+
 		long x1 = 5;
 		long y = x1 += 3;
 		System.out.println(x1); // Outputs 3

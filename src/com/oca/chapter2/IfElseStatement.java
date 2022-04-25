@@ -4,11 +4,12 @@ public class IfElseStatement {
 
 	public static void main(String[] args) {
 		int hourOfDay = 10;
-		if (hourOfDay < 11.0)
+		if (true)
 			System.out.println("Good Morning");
 		else {
 			System.out.println("Good Afternoon");
 		}
+
 
 		char c = 'a';
 		byte b = 10;
